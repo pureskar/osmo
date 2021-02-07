@@ -243,48 +243,47 @@ function enc($a){
 	foreach($c as $go){
 	switch ($go) {
     case 1:
-        $d = "H";
+        $d = "A";
         
         break;
     case 2:
-        $d = "O";
+        $d = "B";
         // $got = $got.$d;
         break;
     case 3:
-        $d = "S";
+        $d = "C";
         // $got = $got.$d;
         break;
     case 4:
-        $d = "X";
+        $d = "D";
         // $got = $got.$d;
         break;
     case 5:
-        $d = "Q";
+        $d = "E";
         // $got = $got.$d;
         break;
     case 6:
-        $d = "A";
+        $d = "F";
         // $got = $got.$d;
         break;
 	case 7:
-        $d = "T";
+        $d = "G";
         // $got = $got.$d;
         break;
     case 8:
-        $d = "Z";
+        $d = "H";
         // $got = $got.$d;
         break;
     case 9:
-        $d = "L";
+        $d = "I";
         // $got = $got.$d;
         break;
     case 0:
-        $d = "U";
+        $d = "J";
         // $got = $got.$d;
         break;
             
-    // default:
-    //     echo "Your favorite color is neither red, blue, nor green!";
+   
 }
 $got = $got.$d;
 }
@@ -300,35 +299,35 @@ function dec($a){
 	$got = NULL;
 	foreach($d as $go){
 	switch ($go) {
-    case "H":
+    case "A":
         $d = 1;
         
         break;
-    case "O":
+    case "B":
         $d = 2;
         break;
-    case "S":
+    case "C":
         $d = 3;
         break;
-    case "X":
+    case "D":
         $d = 4;
         break;
-    case "Q":
+    case "E":
         $d = 5;
         break;
-    case "A":
+    case "F":
         $d = 6;
         break;
 	case "T":
         $d = 7;
         break;
-    case "Z":
+    case "G":
         $d = 8;
         break;
-    case "L":
+    case "H":
         $d = 9;
         break;
-    case "U":
+    case "I":
         $d = 0;
         break;
       
