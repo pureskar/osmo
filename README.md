@@ -1,4 +1,4 @@
-# osmo
+# osmo - Arijit Aich V1.4 (Updated November 2020)
 A collection of PHP functions that will help you to complete your project ASAP.
 
 These functions are written in collab with multiple sources and prove to be very helpful during development.
